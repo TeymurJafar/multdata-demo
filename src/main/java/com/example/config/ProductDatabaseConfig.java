@@ -44,7 +44,6 @@ public class ProductDatabaseConfig {
                .dataSource(productDatasource)
                .packages("com.example.entity.product")
                .persistenceUnit("oracle")
-               .properties(Collections.singletonMap("hibernate.dialect","org.hibernate.dialect.OracleDialect"))
                .build();
 
     }

@@ -48,7 +48,6 @@ public class CustomerDatabaseConfig {
                .dataSource(customerDataSource)
                .packages("com.example.entity.customer")
                .persistenceUnit("mysql")
-               .properties(Collections.singletonMap("hibernate.dialect","org.hibernate.dialect.MySQLDialect"))
                .build();
     }
 
