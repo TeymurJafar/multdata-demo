@@ -1,0 +1,4 @@
+ALTER LOGIN sa WITH PASSWORD = '12345';
+
+CREATE DATABASE multidata_db;
+GO
