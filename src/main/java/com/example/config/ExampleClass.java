@@ -1,2 +1,4 @@
-package com.example.config;public class ExampleClass {
+package com.example.config;
+
+public class ExampleClass {
 }
