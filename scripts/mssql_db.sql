@@ -1,4 +1,5 @@
 ALTER LOGIN sa WITH PASSWORD = '12345';
 
-CREATE DATABASE multidata_db;
+CREATE DATABASE customer_db;
+CREATE DATABASE  product_db;
 GO
